@@ -1,0 +1,61 @@
+/*************************General things****************/
+#baslik {
+    color: rgb(189, 3, 3);
+
+
+}
+a:active {
+    color: rgb(192, 31, 13);
+    text-decoration:underline;
+}
+a{
+    text-decoration: none;
+    color: rgb(22, 16, 16);
+}
+
+h2{
+    color: rgb(184, 52, 52);
+
+}
+h3{
+    color: rgb(192, 31, 13);
+}
+body {
+    text-align: center;
+    font-family:sans-serif;
+    font-weight: bold;
+
+}
+
+/************************** NavBar***********************/
+
+.NavBar{
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    
+}
+.NavBar :hover{
+    color: rgb(179, 45, 45);
+    text-decoration-line: underline;
+}
+/**********************Poplist************/
+
+.pop-li {
+    text-align: center;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 230px;
+}
+/*********************Tourlist************/
+
+.ul-tours{
+    list-style-position: inside;
+    list-style: none;
+    
+}
+.a-link {
+    text-decoration-line: underline;
+}
