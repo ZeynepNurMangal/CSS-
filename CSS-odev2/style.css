@@ -1,0 +1,84 @@
+.main-container{
+display: flex;
+flex-direction: column;
+text-align: center;
+
+}
+.img-container{
+    text-align: center;
+}
+.sub-container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border: 0;
+    border-collapse: separate;
+    border-width: 2px;
+}
+.searchbox-container{
+    background-color: rgb(238, 238, 238);
+    display: block;
+    text-align:center;
+    font-size: 16px;
+   
+}
+.info-container{
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    text-align: center;
+    }
+.box1{
+background-color: rgb(126, 229, 218); 
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 37%;
+font-size: 16px;
+margin: 2px 0px 0px 0px;
+height: 75px;
+}
+.box2{
+background-color:rgb(112, 204, 194) ;
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 21%;
+font-size: 12px;
+margin: 2px 2px 0px 2px;
+height: 75px;
+}
+.box3{
+background-color: rgb(98, 179, 170);
+display: flex;
+flex-direction: column;
+width: 42%;
+font-size: 16px;
+margin: 2px 0px 0px 0px;
+font-size: 12px;
+height: 75px;
+}
+.footer{
+    font-size: 13px;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+.test-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+.input{
+    display: flex;  
+    flex-direction: column;
+}
+.email-input
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
